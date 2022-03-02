@@ -12,7 +12,7 @@ public class Program_v3 {
 		List<Double> myDoubles = Arrays.asList(3.14,6.28);
 		List<Object> myObjs = new ArrayList<Object>();
 		
-		copy(myInts,myObjs);
+		copy(myInts,myObjs); //Copia a lista do tipo inteiro para a de objeto
 		System.out.println(myObjs);
 		copy(myDoubles,myObjs);
 		System.out.println(myObjs);
